@@ -45,6 +45,8 @@ int main(int argc, char * argv[]) {
             printf("It not the palindrome number!\n");
         }
     }
+    
+    free(values);
 
     printf("################################################!\n");
     printf("Program name %s\n", argv[0]);
